@@ -1,0 +1,8 @@
+<div>
+    <% @matches.each do |match| %>
+        <p>
+            <%= image_tag(match.user.photo) %>
+            <%= match.content %>
+        </p>
+    <% end %>
+</div>
